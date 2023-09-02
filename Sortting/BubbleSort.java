@@ -1,4 +1,4 @@
-package Recursion;
+package Sortting;
 import java.util.Arrays;
 
 public class BubbleSort {

@@ -3,42 +3,44 @@ import java.util.Arrays;
 
 public class setArrayto0 {
     public static void main(String[] args) {
-        int[][] ar={{0,1,1},{1,1,1},{1,1,1}};
-
-        ar= mar(ar);
-        for(int i=0;i< ar.length;i++){
-            for(int j=0;j<ar[i].length;j++){
+        int[][] ar = {{0, 1, 1}, {1, 1, 1}, {1, 1, 1}};
+        int ans[][]=setter(ar);
+        for(int i=0;i<ar.length;i++){
+            for(int j=0;j<ar[0].length;j++) {
+                if(ar[i][j]==-1){
+                    ar[i][j]=0;
+                }
+            }
+            }
+        for(int i=0;i<ar.length;i++){
+            for(int j=0;j<ar[0].length;j++) {
                 System.out.print(ar[i][j]);
             }
             System.out.println();
         }
+
     }
-    static int[][] mar(int[][] ar){
+    static int[][] setter(int[][] ar){
+
         for(int i=0;i<ar.length;i++){
-            for(int j=0;j<ar[i].length;j++){
+            for(int j=0;j<ar[0].length;j++){
                 if(ar[i][j]==0){
-                    row(ar,i);
-                    col(ar,j);
+                    row(i,ar);
+                    col(j,ar);
                 }
             }
         }
-        for(int i=0;i<ar.length;i++){
-            for(int j=0;j<ar[0].length;j++){
-                if(ar[i][j]==-1)
-                    ar[i][j]=0;
-            }
+        return ar;
+    }
+    static int[][] row(int i,int[][] ar){
+        for(int j=0;j<ar[i].length;j++){
+            ar[i][j]=-1;
         }
         return ar;
-
-    }
-    static void row(int ar[][],int j) {
-        for (int i = 0; i < ar[j].length; i++) {
-             ar[j][i]=-1;
+    }static int[][] col(int j,int[][] ar){
+        for(int i=0;i<ar.length;i++){
+            ar[i][j]=-1;
         }
+        return ar;
     }
-        static void col(int ar[][], int j) {
-            for (int i = 0; i < ar.length; i++) {
-              ar[i][j]=-1;
-            }
-        }
 }
