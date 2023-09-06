@@ -25,14 +25,24 @@ public class main {
 //        list2.disp();
 //
 
-        LL liste=new LL();
-        liste.add(2);
-        liste.add(2);
-        liste.add(3);
-        liste.add(243);
-        liste.add(243);
-        liste.dis();
-        liste.remdupli();
-        liste.dis();
+//        LL liste=new LL();
+//        liste.add(2);
+//        liste.add(2);
+//        liste.add(3);
+//        liste.add(243);
+//        liste.add(243);
+//        liste.dis();
+//        liste.remdupli();
+//        liste.dis();
+
+
+        LLres list=new LLres();
+        list.addfirst(2);
+        list.addfirst(3);
+        list.addfirst(4);
+        list.addfirst(5);
+        list.addfirst(6);
+        list.addfirst(7);
+        list.print();
     }
 }

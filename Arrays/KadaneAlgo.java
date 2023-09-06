@@ -25,6 +25,6 @@ public class KadaneAlgo {
 
     public static void main(String[] args) {
         int[] ar={-4,-1,-2,-1};
-kade(ar);
+        kade(ar);
     }
 }
