@@ -11,6 +11,7 @@ public class SortChar {
         HashMap<Character,Integer> map=new HashMap<>();
         for(int i=0;i<s.length();i++){
             map.merge(s.charAt(i),1, Integer::sum);
+
         }
         return s;
     }

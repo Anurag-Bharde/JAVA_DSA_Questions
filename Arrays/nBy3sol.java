@@ -1,6 +1,6 @@
 package Arrays;
 
-public class nBy3sol {
+public class  nBy3sol {
     public static void main(String[] args) {
         int ar[] = {1, 2, 2,3,2,6,7};
         System.out.println(n3 (ar));
