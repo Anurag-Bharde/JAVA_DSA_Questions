@@ -58,20 +58,22 @@ class node{
             return;
         }
         node ru=head;
-        while(ru.next!=null){
+        int i=0;
+        while(i<size-1){
             ru=ru.next;
+            i++;
         }
-        System.out.println(ru.data);
-          tail=ru;
-
-
+        System.out.println(ru.next.data);
+          ru.next=null;
+          ru=tail;
     }
 
     public static void main(String[] args) {
         LL link=new LL();
         link.addLast(23);
-//        link.addLast(24);
-//        link.addFirst(25);
+        link.addLast(24);
+        link.addFirst(25);
+        link.addLast(50);
         link.print();
         link.remLast();
         link.print();
