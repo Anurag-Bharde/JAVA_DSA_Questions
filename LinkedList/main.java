@@ -14,15 +14,15 @@ public class main {
 //        list.insertrec(69,2);
 //        list.dis();
 
-//        DLL list2=new DLL();
-//        list2.insert(2);
-//        list2.insert(5);
-//        list2.insert(2);
-//        list2.insert(99);
-//        list2.insert(2100);
-//        list2.ins_las(33);
-//        list2.insertt(69,2);
-//        list2.disp();
+        DLL list2=new DLL();
+        list2.insert(2);
+        list2.insert(5);
+        list2.insert(2);
+        list2.insert(99);
+        list2.insert(2100);
+        list2.ins_las(33);
+        list2.insertt(69,2);
+        list2.disp();
 //
 
 //        LL liste=new LL();
@@ -36,13 +36,13 @@ public class main {
 //        liste.dis();
 
 
-        LLres list=new LLres();
-        list.addfirst(2);
-        list.addfirst(3);
-        list.addfirst(4);
-        list.addfirst(5);
-        list.addfirst(6);
-        list.addfirst(7);
-        list.print();
+//        LLres list=new LLres();
+//        list.addfirst(2);
+//        list.addfirst(3);
+//        list.addfirst(4);
+//        list.addfirst(5);
+//        list.addfirst(6);
+//        list.addfirst(7);
+//        list.print();
     }
 }
