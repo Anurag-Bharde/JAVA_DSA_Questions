@@ -5,6 +5,7 @@ public class SortChar {
     public static void main(String[] args) {
         String s="tree";
 
+        System.out.println("jklqui");
         System.out.println(frequencySort(s));
     }
     static String frequencySort(String s) {
