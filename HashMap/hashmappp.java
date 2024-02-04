@@ -1,8 +1,7 @@
 package HashMap;
 
-public class hashmappp {
-    class Maptr {
+import java.util.*;
 
-//        private Entiy[] etr;
+public class hashmappp {
+
     }
-}
