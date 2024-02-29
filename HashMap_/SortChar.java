@@ -1,4 +1,4 @@
-package HashMap;
+package HashMap_;
 import java.util.HashMap;
 
 public class SortChar {

@@ -5,7 +5,7 @@ public class KadaneAlgo {
     static void kade(int[] ar){
 
             int sum=0;
-            
+            int jjj=0;
         int max=0;
         int i=0;
             while(i<ar.length){
